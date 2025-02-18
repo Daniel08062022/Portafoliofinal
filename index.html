@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Personal</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Fuentes de Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <img class="col-md-2" src="LogoYFuente/Logo.png" height="100vh">
+      <a class="navbar-brand" href="index.html">Portafolio Personal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre-mi">Sobre Mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#noticias">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección Inicio -->
+
+  <!-- Sección Sobre Mí -->
+  <section style="margin-top: 150px;" id="sobre-mi">
+    <div class="container  bg-info" style="border-radius: 20px; padding: 20px;">
+      <h2 class="text-center mb-4">Sobre Mí</h2>
+      <div class="row">
+        <div class="col-md-5">
+          <img src="imagenes/Foto-1.jpg" class="img-fluid rounded">
+        </div>
+        <div class="col-md-6">
+          <h3>¡Hola!</h3>
+          <p>
+            Soy Daniel, un apasionado desarrollo web y medios digitales con experiencia en Photoshop, Illustrator, Canvas, Visual Studio Code, Fotografía e Ilustración. Me encanta crear soluciones digitales innovadoras y funcionales. Aquí puedes conocer más sobre mi trabajo y proyectos.
+          </p>
+          <h3>Mis Habilidades</h3>
+          <ul class="list-unstyled">
+            <li>Trabajo en equipo</li>
+            <li>Escucha activa</li>
+            <li>Pensamiento crítico</li>
+            <li>Creatividad</li>
+            <li>Puntualidas</li>
+          </ul>
+          <a style="margin-top: 20px; margin-bottom: 20px;" href="#proyectos" class="btn btn-light btn-lg">Ver blog</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Sección Proyectos -->
+  <section id="proyectos" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Mis Proyectos</h2>
+      <div class="row">
+        <!-- Proyecto 1 -->
+        <div class="col-md-6 mb-6">
+          <div style="padding: 20px;" class="card h-100">
+            <img src="ajedrez.png" class="card-img-top" alt="Proyecto 1">
+            <div class="card-body">
+              <a href="https://daniel08062022.github.io/Ajedrez/" class="btn btn-outline-light bg-secondary">Minijuego de Ajedrez</a>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="col-md-6 mb-6">
+          <div style="padding: 20px;" class="card h-100">
+            <img src="especificidad.png" class="card-img-top">
+            <div class="card-body">
+              <a href="https://daniel08062022.github.io/z-index-2/" class="btn btn-outline-light bg-secondary">Taller de Especificidad</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Sección Blog -->
+   <section id="proyectos" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Noticias</h2>
+      <div class="row">
+        <!-- blog 1 -->
+        <div class="col-md-3 mb-3">
+          <div style="padding: 20px;" class="card h-100">
+            <img src="blog/noticia1.png" class="card-img-top" alt="Proyecto 1">
+            <div class="card-body">
+              <a href="noticia1.html" class="btn btn-outline-light bg-dark">Francesc Pujol, profesor experto en IA: “Es imposible interactuar con ChatGPT sin pensar”</a>
+            </div>
+          </div>
+        </div>
+        <!-- blog 2 -->
+        <div class="col-md-3 mb-3">
+          <div style="padding: 20px;" class="card h-100">
+            <img src="blog/noticia2.png" class="card-img-top">
+            <div class="card-body">
+              <a href="noticia2.html" class="btn btn-outline-light bg-dark">Cataluña apuesta por reducir el uso de pantallas y ordenadores en las aulas el próximo año</a>
+            </div>
+          </div>
+        </div>
+        <!-- blog 3 -->
+        <div class="col-md-3 mb-3">
+            <div style="padding: 20px;" class="card h-100">
+              <img src="blog/noticia3.png" class="card-img-top">
+              <div class="card-body">
+                <a href="noticia3.html" class="btn btn-outline-light bg-dark">"Network Slicing": de concepto teórico a una realidad gracias a la red 5G</a>
+              </div>
+            </div>
+          </div>
+          <!-- blog 4 -->
+        <div class="col-md-3 mb-3">
+            <div style="padding: 20px;" class="card h-100">
+              <img src="blog/noticia4.png" class="card-img-top">
+              <div class="card-body">
+                <a href="noticia4.html" class="btn btn-outline-light bg-dark">Inteligencia artificial para crear mensajes hiperpersonalizados</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- blog 5 -->
+        <div class="col-md-3 mb-3">
+            <div style="padding: 20px;" class="card h-100">
+              <img src="blog/noticia5.png" class="card-img-top">
+              <div class="card-body">
+                <a href="noticia5.html" class="btn btn-outline-light bg-dark">Los 10 inventos más curiosos del CES 2025: de la cuchara que sala la comida sin sal a la camioneta con un coche volador dentro</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contacto" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contacto</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-info w-100">Enviar Mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 [Tu Nombre]. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
